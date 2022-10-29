@@ -6,21 +6,71 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.row {
+  width: 100%;
+  padding-left: 12px;
 }
-
-* {
-  box-sizing: border-box;
+.col {
+  padding-right: 0 !important;
 }
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+.col-6 {
+  padding-right: 0 !important;
+}
+.col-md-6 {
+  padding-right: 0 !important;
+}
+.col-md-7 {
+  padding-right: 0 !important;
+}
+.col-md-5 {
+  padding-right: 0 !important;
+}
+.col-md-3 {
+  padding-right: 0 !important;
+}
+.col-md {
+  padding-right: 0 !important;
+}
+.col-xl-5 {
+  padding-right: 0 !important;
+}
+.col-xl {
+  padding-right: 0 !important;
+}
+.col-lg-6 {
+  padding-right: 0 !important;
+}
+.col-sm-3 {
+  padding-right: 0 !important;
+}
+.col-sm-6 {
+  padding-right: 0 !important;
+}
+.centerText {
+  text-align: center;
+}
+.leftText {
+  text-align: left;
+}
+.rightText {
+  text-align: right;
+}
+.centerItem {
+  display: flex;
+  justify-content: center;
+}
+.centerItemV {
+  display: flex;
+  align-items: center;
+}
+.myAlignLeft {
+  display: flex;
+  justify-content: flex-start;
+}
+.myAlignRight {
+  display: flex;
+  justify-content: flex-end;
+}
+.noDisplay {
+  display: none;
 }
