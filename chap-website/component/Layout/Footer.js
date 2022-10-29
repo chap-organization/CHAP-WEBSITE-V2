@@ -14,7 +14,6 @@ export default function Footer() {
                         <p>Address: McGill University</p>
                         <p>Address: McGill University</p>
                         <p>Address: McGill University</p>
-
                     </div>
                 </div>
                 <div className="col-4">
