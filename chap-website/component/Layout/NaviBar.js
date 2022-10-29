@@ -3,11 +3,14 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import styles from '../../styles/component/Layout/NaviBar.module.css'
+import Image from 'next/image'
 
 const NaviBar = () => {
     return (
-        <Navbar  bg="light" variant="light">
+        <Navbar className={`${styles.naviBar}`}>
             <Container>
+            <Image/>
             <Navbar.Brand href="#home">Navbar</Navbar.Brand>
             <Nav className="me-auto">
                 <Nav.Link href="#home">Home</Nav.Link>
