@@ -1,0 +1,42 @@
+
+
+.roundRec{
+    position: absolute;
+    width: 30%;
+    height: 600px;
+    top: 0;
+    right: 0;
+    background-color: red;
+    border-bottom-left-radius: 80%;
+}
+
+.textContainer{
+    margin-top: 100px;
+    margin-left: 10%;
+    font-size: 6rem; 
+    font-weight: 600;
+    color: red;
+}
+
+.textContainer span{
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 1116px) {
+
+    .textContainer{
+        font-size: 3rem;
+    }
+
+}
+@media only screen and (max-width: 600px) {
+
+    .roundRec{
+        height: 200px;
+    }
+
+    .textContainer{
+        font-size: 2rem;
+    }
+
+}
