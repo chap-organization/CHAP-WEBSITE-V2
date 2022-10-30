@@ -1,0 +1,37 @@
+@font-face {
+  font-family: Audiowide;
+  src: url('/fonts/Audiowide-Regular.ttf');
+}
+
+.teamSquare{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.wrapper{
+    font-family: 'Audiowide';
+    padding-top: 40px;
+    margin-left: 15%;
+}
+
+.teamText{
+    padding: 15px 35px 0px 0px;
+}
+
+.contentWrapper{
+    padding: 50px 15px 80px 0px;
+}
+
+.chartWrapper{
+    margin: 30px auto;
+    width: 70%;
+}
+
+@media only screen and (max-width: 1250px) {
+    .chartWrapper{
+        width: 90%;
+    }
+}
+
