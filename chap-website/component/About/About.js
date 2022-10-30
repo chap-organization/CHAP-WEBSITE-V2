@@ -1,17 +1,69 @@
-import styles from '../../styles/component/About/About.module.css';
+import styles from '../../styles/component/AboutUs/About.module.css';
 
 const About = () => {
-    return(
+    return (
         <div className={`${styles.wrapper}`}>
-            <div className={`${styles.roundRec}`}></div>
-            <div className={`${styles.textContainer}`}>
-                <p><span>C</span>OMUNITY OF</p>
-                <p><span>H</span>ACKERS</p>
-                <p><span>A</span>ND</p>
-                <p><span>P</span>ROGRAMMERS</p>
+            <h1 className='text-center'> About Us </h1>
+            <div className='container mt-5'>
+                <div className='row mb-5 justify-content-center'>
+                    <div className='text-center col-lg-4'>
+                        <h3>
+                           What is our Mission? 
+                        </h3>
+                        <div>
+                            Our goal is to provide support for students who are just joining university
+                        </div>
+                    </div>
+                </div>
+                <div className='row gx-5'>
+                    <div className='p-3 text-center col-lg-4'>
+                        <h3>
+                           What is our Mission? 
+                        </h3>
+                        <div>
+                            Our goal is to provide support for students who are just joining university
+                        </div>
+                    </div>
+                    <div className='p-3 text-center col-lg-4'>
+                        <h3>
+                           Why would you join us? 
+                        </h3>
+                        <div>
+                            Our goal is to provide support for students who are just joining university
+                        </div>
+                    </div>
+                    <div className='p-3 text-center col-lg-4'>
+                        <h3>
+                            How much experience do you need?  
+                        </h3>
+                        <div>
+                            Our goal is to provide support for students who are just joining university
+                        </div>
+                    </div>
+                </div>
+                <div className='row gx-5 mt-5'>
+                    <div className='p-3 text-center col-lg-6'>
+                        <h3>
+                           Why would you join us? 
+                        </h3>
+                        <div>
+                            Our goal is to provide support for students who are just joining university
+                        </div>
+                    </div>
+                    <div className='p-3 text-center col-lg-6'>
+                        <h3>
+                            How much experience do you need?  
+                        </h3>
+                        <div>
+                            Our goal is to provide support for students who are just joining university
+                        </div>
+                    </div>
+                </div>
             </div>
+            <h2 className='mt-5 text-center'>Join the fun and become a great Engineer!</h2>
         </div>
     )
 }
+
 
 export default About;

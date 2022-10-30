@@ -1,8 +1,14 @@
 
+@font-face {
+  font-family: Audiowide;
+  src: url('/fonts/Audiowide-Regular.ttf');
+}
+
 .ourNavbar{
     padding: 10px 2%;
     background-color: rgba(255, 255, 255, 0.5);
     box-shadow: 0px 4px 10px grey;
+    font-family: 'Audiowide' ;
 }
 
 .navlinks > a{
@@ -16,13 +22,18 @@
 
 .joinUs{
     margin: 0px 20px 0px 70px;
+    width: 195px;
+    height: 48px;
 }
 
 .joinUsButton{
-    border-radius: 10px;
     padding: 5px 40px;
     background-color: red;
-    border: 2px solid white;
+    border: 5px solid white;
+    border-collapse: separate;
+    font-size: 22px;
+    text-decoration: underline;
+    border-radius: 18px;
 }
 
 .joinUsButton:hover{
@@ -30,6 +41,12 @@
     border: 3px solid black;
     color: red;
     font-weight: 800;
+}
+
+@media only screen and (max-width: 1025px) {
+    .joinUsButton{
+        font-size: medium;
+    }
 }
 
 @media only screen and (max-width: 600px) {

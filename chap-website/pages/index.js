@@ -2,12 +2,14 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
-import AboutUs from './AboutUs.js'
+import CHAP from './CHAP.js'
+import About from './About.js'
 
 export default function Home() {
   return (
     <div>
-        <AboutUs/>
+        <CHAP/>
+        <About/>
     </div>
   )
 }
