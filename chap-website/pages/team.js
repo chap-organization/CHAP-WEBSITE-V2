@@ -1,17 +1,12 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../styles/Home.module.css'
-
-import CHAP from '../component/CHAP/CHAP_comp.js'
-import About from '../component/About/About.js'
-import HomeTeam from '../component/Home_Team/HomeTeam.js'
-import MediaSection from '../component/Media/MediaSection'
+import styles from '../styles/Team.module.css'
+import Team from "../component/Team/Team";
 
 export default function Home() {
-
   return (
     <div>
-      <Head>
+        <Head>
         <title>Chap</title>
         <meta name="description" content="Chap" />
         <meta charSet="utf-8" />
@@ -24,13 +19,10 @@ export default function Home() {
         <meta name="msapplication-TileColor" content="#da532c"/>
         <meta name="theme-color" content="#ffffff"/>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-      </Head>
-      <main>
-        <CHAP/>
-        <About/>
-        <HomeTeam/>
-        <MediaSection />
-      </main>
+        </Head>
+        <main>
+            <Team/>
+        </main>
     </div>
   )
 }
