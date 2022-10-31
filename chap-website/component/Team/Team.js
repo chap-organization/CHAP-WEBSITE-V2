@@ -15,7 +15,7 @@ export default function Team() {
             <div className="row g-3">
                 {memberInfo.map(info => {
                     return(
-                        <div key={info.id} className="col-3 centerItem">
+                        <div key={info.id} className={`col-md-3 col-sm-6 centerItem ${(info.id == 3 ? styles.oddCard : "")}`}>
                             {(info.id != 3) &&  <TeamCard info={info}/>}
                         </div>
                     );
