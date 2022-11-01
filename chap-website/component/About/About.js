@@ -2,7 +2,7 @@ import styles from '../../styles/component/AboutUs/About.module.css';
 
 const About = () => {
     return (
-        <div className={`${styles.wrapper}`}>
+        <div id="AboutUs" className={`${styles.wrapper}`}>
             <h1 className='text-center'> About Us </h1>
             <div className='container mt-5'>
                 <div className='row mb-5 justify-content-center'>

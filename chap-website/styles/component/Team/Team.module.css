@@ -1,6 +1,16 @@
+
+@font-face {
+  font-family: Audiowide;
+  src: url('/fonts/Audiowide-Regular.ttf');
+}
+
+.teamSection{
+    font-family: 'Audiowide';
+}
+
 .title {
     font-size: 50px;
-    margin: 60px;
+    margin: 60px 0px 60px 60px;
 }
 
 
@@ -9,3 +19,4 @@
         display: none;
     }
 }
+

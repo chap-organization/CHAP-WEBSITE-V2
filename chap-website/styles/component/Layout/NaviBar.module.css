@@ -1,12 +1,10 @@
 
-/* Nav Bar setup */
-
-
 @font-face {
   font-family: Audiowide;
   src: url('/fonts/Audiowide-Regular.ttf');
 }
 
+/* Nav Bar setup */
 .ourNavbar{
     padding: 10px 2%;
     background-color: rgba(255, 255, 255, 0.5);

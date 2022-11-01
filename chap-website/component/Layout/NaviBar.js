@@ -26,13 +26,15 @@ const NaviBar = () => {
         return (
             <Navbar fixed={navBarFix == 'fixed' ? 'top' : null} sticky={navBarFix == 'fixed' ? null : 'top'} collapseOnSelect expand="lg" className={`${styles.ourNavbar}`}>
                 <Navbar.Brand>
-                    <Image
-                        alt="CHAP logo"
-                        className={styles.logo}
-                        src={logo}
-                        width={317}
-                        height={67}
-                    />
+                    <Nav.Link href="/">
+                        <Image
+                            alt="CHAP logo"
+                            className={styles.logo}
+                            src={logo}
+                            width={317}
+                            height={67}
+                        />
+                    </Nav.Link>
                 </Navbar.Brand>
                 <Navbar.Toggle data-bs-target='navbarScroll' />
                 <Navbar.Collapse id="navbarScroll" className={`justify-content-end ${styles.navContent}`}>
@@ -40,15 +42,15 @@ const NaviBar = () => {
 
                         <Nav.Link style={{
                             pointerEvents: buttonEnabled
-                        }} href="/#About">About</Nav.Link>
+                        }} href="/#AboutUs">About</Nav.Link>
 
                         <Nav.Link style={{
                             pointerEvents: buttonEnabled
-                        }} href="/#OurTeam">Our Team</Nav.Link>
+                        }} href="/team">Our Team</Nav.Link>
 
                         <Nav.Link style={{
                             pointerEvents: buttonEnabled
-                        }} href="/#ProjectsAndAward">Projects & Awards</Nav.Link>
+                        }} href="/projects">Projects & Awards</Nav.Link>
 
                     </Nav>
                     <Nav className={`${styles.joinUs}`}>
@@ -112,7 +114,9 @@ const NaviBar = () => {
             <JoinUsModal/>
             <MyNavBar navBarFix='fixed' buttonEnabled={'none'} />
         </div>
-    ) : (<MyNavBar navBarFix='sticky' buttonEnabled={'all'} />);
+    ) : (
+            <MyNavBar navBarFix='sticky' buttonEnabled={'all'} />
+    );
 
 }
 

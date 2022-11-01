@@ -1,0 +1,23 @@
+
+.roundRec{
+    position: absolute;
+    width: 30%;
+    height: 600px;
+    top: 0;
+    right: 0;
+    background-color: red;
+    border-bottom-left-radius: 80%;
+}
+
+@media only screen and (max-width: 1250px) {
+    .roundRec{
+        height: 300px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .roundRec{
+        height: 200px;
+    }
+}
+

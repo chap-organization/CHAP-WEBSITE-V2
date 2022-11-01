@@ -1,0 +1,28 @@
+.wrapper{
+    margin: 30px 0px;
+}
+
+.imageWrapper{
+    background-color: #D9D9D9;
+    width: 400px;
+    height: 250px;
+    border-radius: 50px;
+}
+
+.projectTitle{
+    font-size: 35px;
+    text-decoration: underline;
+}
+
+.projectDescription{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 750px){
+   .projectDescription{
+    width: 100%;
+   } 
+}

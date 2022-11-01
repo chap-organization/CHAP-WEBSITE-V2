@@ -9,10 +9,8 @@ export default function Team() {
 
     return(
         <section className={styles.teamSection}>
-            <div className="row">
-                <h3 className={styles.title}>Meet the Team!</h3>
-            </div>
-            <div className="row g-3">
+            <h3 className={styles.title}>Meet the Team!</h3>
+            <div className="row g-3 ">
                 {memberInfo.map(info => {
                     return(
                         <div key={info.id} className={`col-md-3 col-sm-6 centerItem ${(info.id == 3 ? styles.oddCard : "")}`}>
